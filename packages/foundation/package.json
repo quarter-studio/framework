@@ -1,12 +1,13 @@
 {
   "name": "@quarter/foundation",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "@quarter/foundation",
   "main": "index.js",
   "module": "index.js",
   "sideEffects": false,
   "files": [
-    "index.js"
+    "index.js",
+    "Container.js"
   ],
   "repository": {
     "type": "git",
