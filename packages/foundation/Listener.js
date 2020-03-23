@@ -4,7 +4,7 @@ import { memoize } from 'lodash'
 export default () => {
   const listener = {
     on(event) {
-      return resolve(event.type || event).toObservable()
+      return resolve(event.type || event).asObservable()
     },
 
     send(event, data) {
