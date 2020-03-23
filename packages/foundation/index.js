@@ -1,1 +1,1 @@
-export { default as Container } from '@quarter/foundation/Container'
+export { default as Container } from './Container'
