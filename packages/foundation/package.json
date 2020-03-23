@@ -1,6 +1,6 @@
 {
   "name": "@quarter/foundation",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "@quarter/foundation",
   "main": "index.js",
   "module": "index.js",
