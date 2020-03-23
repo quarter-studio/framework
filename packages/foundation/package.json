@@ -1,6 +1,6 @@
 {
   "name": "@quarter/foundation",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "@quarter/foundation",
   "main": "index.js",
   "module": "index.js",
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/quarter-studio/framework/issues"
   },
-  "homepage": "https://github.com/quarter-studio/framework/tree/master#readme"
+  "homepage": "https://github.com/quarter-studio/framework/tree/master#readme",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "rxjs": "^6.5.4"
+  }
 }

@@ -1,6 +1,6 @@
 {
   "private": true,
-  "version": "0.0.4",
+  "version": "0.0.5",
   "workspaces": [
     "packages/*"
   ],
@@ -9,6 +9,9 @@
     "test": "jest"
   },
   "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "babel-jest": "^25.1.0",
     "chalk": "^3.0.0",
     "enquirer": "^2.3.2",
     "esm": "^3.2.25",
