@@ -7,9 +7,9 @@ export default () => {
   const singletons = {}
   const subjects = {}
 
-  const app = {
+  const container = {
     share(abstract, concrete) {
-      app.bind(abstract, concrete, true)
+      container.bind(abstract, concrete, true)
     },
 
     bind(abstract, concrete, shared = false) {
@@ -48,8 +48,8 @@ export default () => {
       return combineLatest(
         ...args.map((arg) => {
           switch (typeof arg) {
-            case 'string': return app.make(arg)
-            case 'array': return arg.map(app.make)
+            case 'string': return container.make(arg)
+            case 'array': return arg.map(container.make)
             default: return arg
           }
         })
@@ -58,7 +58,7 @@ export default () => {
   }
 
   const build = (create, args) => {
-    const instance = create(app, ...args)
+    const instance = create(container, ...args)
 
     return isObservable(instance) ? instance : of(instance)
   }
@@ -79,5 +79,5 @@ export default () => {
     return isFunction(concrete) ? concrete : constant(concrete)
   }
 
-  return app
+  return container
 }
