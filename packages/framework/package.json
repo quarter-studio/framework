@@ -1,6 +1,6 @@
 {
   "name": "@quarter/framework",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "@quarter/framework",
   "main": "index.js",
   "module": "index.js",
@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/quarter-studio/framework/tree/master#readme",
   "dependencies": {
-    "@quarter/foundation": "0.0.6"
+    "@quarter/foundation": "0.0.7"
   }
 }
