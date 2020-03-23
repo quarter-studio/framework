@@ -1,0 +1,24 @@
+{
+  "name": "@quarter/foundation",
+  "version": "0.0.2",
+  "description": "@quarter/foundation",
+  "main": "index.js",
+  "module": "index.js",
+  "sideEffects": false,
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quarter-studio/framework.git"
+  },
+  "keywords": [
+    "quarter"
+  ],
+  "author": "Wilson Lewis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quarter-studio/framework/issues"
+  },
+  "homepage": "https://github.com/quarter-studio/framework/tree/master#readme"
+}

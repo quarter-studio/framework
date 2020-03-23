@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDir": ".",
+    "paths": {
+      "@quarter/*": ["packages/*/src"]
+    }
+  },
+  "include": ["packages/*/src", "packages/*/__tests__"]
+}
