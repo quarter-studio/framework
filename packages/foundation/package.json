@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/quarter-studio/framework/tree/master#readme",
   "dependencies": {
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "rxjs": "^6.5.4"
   }
 }
